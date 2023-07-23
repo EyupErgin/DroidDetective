@@ -1,3 +1,4 @@
+
 <p align="center">
   <br>
   <a href="https://ergin.dev"><img src="https://raw.githubusercontent.com/EyupErgin/DroidDetective/main/.img/DroidDetective.png" width="600px" alt="HuntRthys"></a>
@@ -153,7 +154,7 @@ Extended Static Analysis Tool for Analyzing Android APK Files.
 
 [+] [INFO] APK Analyze Finished.
 ```
-```
+```json
 {
     "basicInfo": {
         "fileName": "example.apk",
@@ -164,50 +165,17 @@ Extended Static Analysis Tool for Analyzing Android APK Files.
         "MD5": "5ed55262e1d560253b1a763627214e76",
         "SHA1": "91dfae9c4c37208e0b600b397d3f78ffa35f0326",
         "SHA256": "811cc0ba2f625b5d41eaa6f59714fb55f34ca3833975204b3ffeca77e262415a"
-    },
-    "apkInfo": {
-        "applicationName": "Example",
-        "packageName": "com.example.rome"
-    },
-    "apkVersion": {
-        "internalVersion": "1972",
-        "displayedVersion": "8.33.0",
-        "targetSDKVersion": "33",
-        "minimumSDKVersion": "24",
-        "maximumSDKVersion": null
-    },
-    "extendedAPKInfo": {
-        "permissions": [
-            "com.oppo.launcher.permission.WRITE_SETTINGS",
-            "com.huawei.android.launcher.permission.CHANGE_BADGE",
-            "android.permission.SCHEDULE_EXACT_ALARM"
-        ],
-        "activities": [
-            "com.facebook.react.devsupport.DevSettingsActivity",
-            "com.example.rome.app.TopLevelActivity",
-            "com.example.rome.bdp.ui.BookingDetailActivity"
-        ],
-        "services": [
-            "com.example.rome.PushNotificationHandler",
-            "com.example.rome.profile.account.AccountAuthenticatorService",
-            "com.example.rome.indexing.AppIndexingUpdateService"
-        ],
-        "receivers": [
-            "com.example.rome.app.notification.AppBoyBroadcastReceiver",
-            "com.example.rome.indexing.AppIndexingUpdateReceiver",
-            "com.example.rome.notifications.DeleteNotificationReceiver"
-        ]
     }
 }
 ```
-
 ---
 
 ## License
 This project is licensed under the MIT License. See the LICENSE file for more details.
 
 ### Contributing
-If you would like to contribute to this project, please open an issue or submit a pull request. Any contributions and suggestions are welcome!
+Repo Update Date: 23-07-2023 <br>
+> If you would like to contribute to this project, please open an issue or submit a pull request. Any contributions and suggestions are welcome!
 
 ### Contact
 If you have any questions or suggestions, please feel free to contact me.<br>

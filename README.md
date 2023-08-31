@@ -163,7 +163,7 @@ Extended Static Analysis Tool for Analyzing Android APK Files.
 This project is licensed under the MIT License. See the LICENSE file for more details.
 
 ### Contributing
-Repo Update Date: 30-08-2023 <br>
+Repo Update Date: 31-08-2023 <br>
 > If you would like to contribute to this project, please open an issue or submit a pull request. Any contributions and suggestions are welcome!
 
 ### Contact

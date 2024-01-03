@@ -3,7 +3,6 @@ from core.banner import print_banner
 from core.analyzer import analyze_all, analyze_apk, get_file_info, get_file_hash, get_apk_info, get_apk_version_info, get_extended_info, print_list_info
 import argparse
 
-# Parse command line arguments
 parser = argparse.ArgumentParser(description="DroidDetective: Extended Static Analysis Tool for Analyzing Android APK Files.")
 parser.add_argument("PATH", help="USAGE: python3 main.py file.apk")
 parser.add_argument("-a", "--all", action="store_true", help="Run all options (suggested argument by developer)")
@@ -28,10 +27,8 @@ parser.add_argument("-json", "--json", action="store_true", help="Save outputs a
 
 args = parser.parse_args()
 
-# Print banner
 print_banner()
 
-# Analyze APK
 print("\n[+] [INFO] APK Analyze Started.")
 if args.all:
     sys.stdout.write("\033[F")
